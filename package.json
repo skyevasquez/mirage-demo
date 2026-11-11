@@ -6,6 +6,7 @@
   "scripts": {
     "start": "bun run index.ts",
     "start:wasm": "bun run wasm-app/serve.ts",
+    "build:pages": "bun run scripts/build-pages.ts",
     "lint": "biome lint"
   },
   "devDependencies": {
